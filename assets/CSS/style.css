@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #c95620;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container h1 {
+  margin-bottom: 2rem;
+}
+
+#turn {
+  margin-bottom: 1rem;
+}
+
+/* Play Area. */
+.playarea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 60vmin;
+  width: 60vmin;
+}
+
+.playarea button {
+  background-color: #3a86ff;
+  color: #8338ec;
+  width: 20vmin;
+  height: 20vmin;
+  border: none;
+  font-size: 10vmin;
+  border-radius: 2vmin;
+  border: #ff006e 2px solid;
+}
+
+#restart0 {
+  margin-top: 10vmin;
+  background-color: white;
+  border: none;
+  width: 20vmin;
+  height: 9vmin;
+  font-size: 3vmin;
+  border-radius: 2vmin;
+}
+
+#restart1 {
+  margin-top: 10vmin;
+  background-color: white;
+  border: none;
+  width: 20vmin;
+  height: 9vmin;
+  font-size: 3vmin;
+  border-radius: 2vmin;
+}
+
+.msg {
+  font-size: 5vmin;
+}
+
+h1 {
+  text-align: center;
+}
+
+.winner {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+
+@media (max-width: 500px) {
+  #turn {
+    font-size: 1.5rem;
+  }
+  .container {
+    margin-top: 25vmin;
+  }
+  .playarea {
+    width: 95vmin;
+    height: 95vmin;
+  }
+  .playarea button {
+    width: 31.6vmin;
+    height: 31.6vmin;
+  }
+
+  #restart0 {
+    margin-top: 20vmin;
+    width: 30vmin;
+    height: 13vmin;
+    font-size: 5vmin;
+    border-radius: 2vmin;
+  }
+
+  #restart1 {
+    margin-top: 20vmin;
+    width: 30vmin;
+    height: 13vmin;
+    font-size: 5vmin;
+    border-radius: 2vmin;
+    font-weight: bold;
+  }
+
+  .msg {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+}
