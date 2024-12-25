@@ -70,7 +70,7 @@ Tic Tac Toe is a two-player game implemented using **HTML**, **CSS**, and **Java
 ---
 
 ## Deployment
-The project is deployed and accessible at [Your Deployment URL](#). *(Replace `#` with your actual deployment link)*
+The project is deployed and accessible at https://rohanbhoge.github.io/tictactoe/.
 
 ---
 
@@ -78,9 +78,9 @@ The project is deployed and accessible at [Your Deployment URL](#). *(Replace `#
 
 Feel free to reach out to me through the following channels:
 
-- **Email**: [your_email@example.com](mailto:your_email@example.com) *(Replace with your email address)*
-- **GitHub**: [YourGitHubProfile](https://github.com/YourGitHubProfile) *(Replace with your GitHub profile link)*
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/YourLinkedInProfile) *(Replace with your LinkedIn profile link)*
+- **Email**: bhogerohan12@gmail.com
+- **GitHub**: https://github.com/RohanBhoge
+- **LinkedIn**: https://www.linkedin.com/in/rohanbhoge/
 
 ---
 
